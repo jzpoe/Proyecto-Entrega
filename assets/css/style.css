@@ -1,16 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 html,
 body {
   margin: 0;
   padding: 0;
 }
+
 .navbar {
   background-color: #000000 !important; /* Fondo negro */
-  padding: 10px 0 !important; /* Espaciado alrededor */
-  font-size: 20px !important; /* Tamaño de la fuente */
+  padding: 20px 0 !important; /* Espaciado alrededor */
+  font-size: 30px !important; /* Tamaño de la fuente */
+}
+
+.nav-item {
+  margin-right: 30px !important; /* Aumenta el espacio entre los enlaces */
 }
 
 .navbar a {
-    color: white !important
-    
+  color: white !important; /* Asegura que los enlaces sean blancos */
+}
+
+.navbar-nav {
+  display: flex !important; /* Asegura que los items estén en una línea */
+  justify-content: flex-end !important; /* Alinea los items a la derecha */
+  width: 100% !important; /* Asegura que ocupe todo el ancho disponible */
 }
