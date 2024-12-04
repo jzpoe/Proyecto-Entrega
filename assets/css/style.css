@@ -51,14 +51,26 @@ body {
     width: 300px;
   }
   
-  .left-column .card {
-    height: auto;
-    width: 600px;
-    margin: 10px;
-  }
-  
-  .right-column .card{
-    height: auto;
-    width: 500px;
-  }
-  
+
+.right-column {
+  flex: 1; /* Columna derecha más estrecha */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Espaciado entre filas */
+}
+.right-column {
+  flex: 1; /* Ambas tarjetas ocupan la misma altura */
+  width: 300px;
+}
+
+.left-column .card {
+  height: auto;
+  width: 600px;
+  margin: 10px;
+}
+
+.right-column .card{
+  height: auto;
+  width: 500px;
+}
+
