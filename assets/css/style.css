@@ -1,10 +1,10 @@
 body {
-  background-image: url("/img/22.jpg");
+  background-image: url("/assets/img/22.JPG");
   background-size: cover; /* La imagen cubrirá todo el fondo */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que se repita */
   margin: 0;
-  height: 100vh; /* Asegura que el fondo cubra toda la ventana */
+  height: 100%; /* Asegura que el fondo cubra toda la ventana */
 }
 
 /* .container-imagen{
@@ -18,9 +18,31 @@ body {
 .custom-layout {
   display: flex;
   gap: 1rem; /* Espaciado entre columnas */
- 
+  background-image:assets/img/3720.JPG"
+
+  
  
 }
+
+.card{
+  width: 290px !important;
+}
+
+.card-img-top {
+  height: 200px; /* Alto de la card */
+  padding: 15px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde de la card */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto 3D */
+  background-color: #f9f9f9; /* Fondo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease; /* Animación */
+}
+
+
 .left-column {
   flex: 1; /* Hace la columna izquierda más ancha */
   
