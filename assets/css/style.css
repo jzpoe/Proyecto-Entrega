@@ -3,11 +3,11 @@
 html,
 body {
     background-image: url("/assets/img/22.jpg");
-    background-size: cover; /* La imagen cubrirá todo el fondo */
+    
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que se repita */
     margin: 0;
-    height: 100vh; /* Asegura que el fondo cubra toda la ventana */
+    height: 100%; /* Asegura que el fondo cubra toda la ventana */
   }
 
 .navbar {
@@ -74,3 +74,6 @@ body {
   width: 500px;
 }
 
+.carousel img{
+  width: 470px;
+}
