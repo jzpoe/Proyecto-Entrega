@@ -1,0 +1,57 @@
+html,
+body {
+  background-image: url("/assets/img/22.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-height: 100vh;
+  background-attachment: fixed; /* Fija el fondo */
+  padding: 80px;
+}
+
+.navbar {
+  background-color: #000000 !important; /* Fondo negro */
+  padding: 20px 0 !important; /* Espaciado alrededor */
+  font-size: 30px !important; /* Tamaño de la fuente */
+  position: fixed; /* Fija el navbar en la parte superior */
+  top: 0; /* Lo coloca en la parte superior de la página */
+  left: 0; /* Alineado a la izquierda */
+  right: 0; /* Alineado a la derecha */
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+.nav-item {
+  margin-right: 30px !important; /* Aumenta el espacio entre los enlaces */
+}
+
+.navbar a {
+  color: white !important; /* Asegura que los enlaces sean blancos */
+}
+
+.navbar-nav {
+  display: flex !important; /* Asegura que los items estén en una línea */
+  justify-content: flex-end !important; /* Alinea los items a la derecha */
+  width: 100% !important; /* Asegura que ocupe todo el ancho disponible */
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+}
+
+.navbar-logo {
+  width: 100px; /* Ajusta el ancho deseado */
+  height: 100px; /* Ajusta el alto deseado */
+  object-fit: contain; /* Asegura que la imagen no se distorsione */
+  position: absolute; /* Evita que el tamaño de la imagen influya en la altura del navbar */
+  top: 50%; /* Centra verticalmente la imagen dentro del navbar */
+  transform: translateY(-50%);
+}
+
+/* Agregar margen superior para evitar que el contenido quede debajo del navbar */
+body {
+  padding-top: 80px; /* Ajusta el valor según la altura de tu navbar */
+}
