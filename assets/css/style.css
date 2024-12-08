@@ -59,6 +59,21 @@ body {
   flex-direction: column;
   gap: 1rem; /* Espaciado entre filas */
 }
+
+.right-column {
+  flex: 1; /* Ambas tarjetas ocupan la misma altura */
+  width: 300px;
+}
+
+.left-column {
+  flex: 1; /* Hace la columna izquierda más ancha */
+}
+.right-column {
+  flex: 1; /* Columna derecha más estrecha */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Espaciado entre filas */
+}
 .right-column {
   flex: 1; /* Ambas tarjetas ocupan la misma altura */
   width: 300px;
@@ -92,4 +107,24 @@ body {
 }
 .carousel img{
   width: 470px;
+}
+
+.dropdown-menu {
+  display: none; /* Bootstrap lo manejará dinámicamente */
+  position: absolute;
+  background-color: #000; 
+  border: none; 
+  padding: 10px;
+  margin-top: 10px; 
+  z-index: 1000; 
+}
+
+.dropdown-item {
+  color: white !important; 
+  padding: 8px 15px;
+}
+
+.dropdown-item:hover {
+  background-color: #333; 
+  color: #fff;
 }

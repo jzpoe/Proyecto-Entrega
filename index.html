@@ -35,8 +35,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">TIENDA</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="tiendaDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                TIENDA
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="tiendaDropdown">
+                <li>
+                  <a class="dropdown-item" href="assets/mujer/tienda.html"
+                    >Mujer</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="assets/hombre/hombre.html"
+                    >Hombre</a
+                  >
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/assets/acerca-de/acerca.html">ACERCA DE</a>
