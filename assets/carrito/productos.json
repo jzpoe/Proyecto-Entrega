@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "nombre": "Camiseta",
+      "descripcion": "Camiseta de algodón 100%",
+      "precio": 20.0,
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "nombre": "Pantalón",
+      "descripcion": "Pantalón de mezclilla",
+      "precio": 40.0,
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "nombre": "Zapatos",
+      "descripcion": "Zapatos de cuero",
+      "precio": 60.0,
+      "imagen": "https://via.placeholder.com/150"
+    }
+  ]
