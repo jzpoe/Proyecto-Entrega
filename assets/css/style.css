@@ -114,14 +114,22 @@ display: none; /* Inicialmente oculto */
 display: block;
 }
 
+
+
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
   /* Asegura que la imagen no ocupe todo el espacio */
   .navbar-brand img {
-      max-width: 60px; /* Ajusta según lo necesario */
+      max-width: 80px; /* Ajusta según lo necesario */
       height: auto;
   }
 
+  .carousel-inner img {
+    width: 75%;
+    
+  }
+
+  
   .nav-item.dropdown .dropdown-menu {
       position: static; /* Alineación en línea en pantallas pequeñas */
       display: none; /* Ocultar por defecto en móvil */
