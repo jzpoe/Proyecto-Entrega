@@ -58,7 +58,7 @@ html, body {
 
 /* Carrusel */
 .carousel-inner img {
-  width: 100%;
+  width: 30%;
   height: auto;
   object-fit: cover;
 }
