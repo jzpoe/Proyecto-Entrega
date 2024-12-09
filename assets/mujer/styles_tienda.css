@@ -1,14 +1,7 @@
+
 html,
 body {
-  background-image: url("/assets/img/22.jpg");
-  background-repeat: no-repeat; /* Evita que se repita */
-  background-attachment: fixed;
-  margin: 0;
-  height: 100%; /* Asegura que el fondo cubra toda la ventana */
-}
-html,
-body {
-  background-image: url("/assets/img/22.jpg");
+  background-image: url("assets/img/22.jpg");
     background-repeat: no-repeat; /* Evita que se repita */
     background-attachment: fixed;
     margin: 0;
