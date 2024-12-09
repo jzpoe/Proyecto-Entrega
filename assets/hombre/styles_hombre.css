@@ -1,24 +1,37 @@
 html,
 body {
   background-image: url("/assets/img/22.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0;
-  min-height: 100vh;
-  background-attachment: fixed; /* Fija el fondo */
-  padding: 80px;
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%; /* Asegura que el fondo cubra toda la ventana */
+
 }
+
+.name-carrito{
+color: white;
+}
+.name-producto{
+  color: wheat;
+}
+.name-total{
+  color: white;
+
+}
+.badge {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+  color: white;
+  background-color: #007bff; /* Azul Bootstrap */
+  margin-left: 5px;
+}
+
 
 .navbar {
   background-color: #000000 !important; /* Fondo negro */
-  padding: 20px 0 !important; /* Espaciado alrededor */
-  font-size: 30px !important; /* Tamaño de la fuente */
-  position: fixed; /* Fija el navbar en la parte superior */
-  top: 0; /* Lo coloca en la parte superior de la página */
-  left: 0; /* Alineado a la izquierda */
-  right: 0; /* Alineado a la derecha */
-  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+  height: 120px;
+  
 }
 
 .nav-item {
@@ -26,6 +39,8 @@ body {
 }
 
 .navbar a {
+  height: 100%;
+  background-color: black;
   color: white !important; /* Asegura que los enlaces sean blancos */
 }
 
@@ -49,9 +64,4 @@ body {
   position: absolute; /* Evita que el tamaño de la imagen influya en la altura del navbar */
   top: 50%; /* Centra verticalmente la imagen dentro del navbar */
   transform: translateY(-50%);
-}
-
-/* Agregar margen superior para evitar que el contenido quede debajo del navbar */
-body {
-  padding-top: 80px; /* Ajusta el valor según la altura de tu navbar */
 }
