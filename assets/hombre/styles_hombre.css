@@ -1,6 +1,6 @@
 html,
 body {
-  background-image: url("public/img/22.jpg");
+  background-image: url("/public/img/22.jpg");
     background-repeat: no-repeat; /* Evita que se repita */
     background-attachment: fixed;
     margin: 0;
