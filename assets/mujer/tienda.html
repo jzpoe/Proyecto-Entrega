@@ -11,15 +11,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/assets/mujer/styles_tienda.css" />
+    <script src="/assets/mujer/carrito.js"></script>
     <title>Loadingg</title>
   </head>
   <body>
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary style-navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <div class="container-logo">
             <a href="/index.html"
-              ><img src="/assets/img/logo.png" alt="Logo" class="navbar-logo"
+              ><img src="./img/22.jpg" alt="Logo" class="navbar-logo"
             /></a>
           </div>
         </a>
@@ -37,23 +39,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="assets/mujer/tienda.html"
-                >TIENDA</a
-              >
+              <a class="nav-link" href="/assets/hombre/hombre.html">HOMBRE</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">ACERCA DE</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CARRITO</a>
-            </li>
+            
           </ul>
         </div>
       </div>
     </nav>
+
+    <div class="container mt-4">
+      <h2 class="name-carrito">Carrito de Compras</h2>
+      <div id="carrito" class="name-producto"></div>
+      <h3 id="total" class="name-total">Total: $0</h3>
+    </div>
 
     <!-- Contenedor para las tarjetas -->
     <div class="container">
@@ -67,15 +68,15 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title 1</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camiseta Azul</h5>
+              <p class="card-text">Camiseta de algodón de alta calidad.</p>
+              <a href="#" class="btn btn-primary agregar-carrito" data-titulo="Camiseta Azul" data-precio="15">
+                Agregar al carrito
+              </a>
             </div>
           </div>
         </div>
+
 
         <!-- Tarjeta 2 -->
         <div class="col-md-4">
@@ -86,12 +87,11 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title 2</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camiseta Azul</h5>
+              <p class="card-text">Camiseta de algodón de alta calidad.</p>
+              <a href="#" class="btn btn-primary agregar-carrito" data-titulo="Camiseta Azul" data-precio="15">
+                Agregar al carrito
+              </a>
             </div>
           </div>
         </div>
@@ -105,12 +105,11 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title 3</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camiseta Azul</h5>
+              <p class="card-text">Camiseta de algodón de alta calidad.</p>
+              <a href="#" class="btn btn-primary agregar-carrito" data-titulo="Camiseta Azul" data-precio="15">
+                Agregar al carrito
+              </a>
             </div>
           </div>
         </div>
@@ -123,12 +122,11 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title 4</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camiseta Azul</h5>
+              <p class="card-text">Camiseta de algodón de alta calidad.</p>
+              <a href="#" class="btn btn-primary agregar-carrito" data-titulo="Camiseta Azul" data-precio="15">
+                Agregar al carrito
+              </a>
             </div>
           </div>
         </div>
@@ -141,12 +139,11 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title 5</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camiseta Azul</h5>
+              <p class="card-text">Camiseta de algodón de alta calidad.</p>
+              <a href="#" class="btn btn-primary agregar-carrito" data-titulo="Camiseta Azul" data-precio="15">
+                Agregar al carrito
+              </a>
             </div>
           </div>
         </div>
@@ -159,17 +156,14 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title 6</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camiseta Azul</h5>
+              <p class="card-text">Camiseta de algodón de alta calidad.</p>
+              <a href="#" class="btn btn-primary agregar-carrito" data-titulo="Camiseta Azul" data-precio="15">
+                Agregar al carrito
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
